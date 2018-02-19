@@ -1,0 +1,232 @@
+/*
+*	 Author: Abdulwahab Nasir (weybansky)
+*	  Email: weybansky@gmail.acom
+*	 Github: https://github.com/weybansky
+*	Website: https://www.weybanskytech.com.ng
+*/
+
+/* Global */
+section{
+  display: none
+}
+
+section#notify{
+  display: block;
+}
+
+section#notify a{
+  display: block;
+  background-color: #c00;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+section#menu2{
+  display: block;
+  background-color: #00bb00;
+}
+section#menu2 div > a#main-logo{
+	
+}
+section#menu2 ul{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+section#menu2 ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 15px 5px;
+	margin: 0px 5px;
+	color: #ffffff;
+}
+section#menu2 ul li:hover{
+	color: #333;
+	background-color: #ffffff;
+}
+
+
+section#about{
+	display: block;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+	min-height: 350px;
+	background: url('../img/bg-about.jpg');
+}
+section#about h1{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #0b0;
+}
+section#about p{
+	color: #bbb;
+}
+
+
+/*===== Facilitators =====*/
+section#facilitators{
+	display: block;
+	padding-bottom: 30px;
+	background-color: #363636;
+}
+section#facilitators h3.header{
+	padding-bottom: 20px;
+	color: #fff;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 26px;
+}
+section#facilitators div.row div div.img{
+	padding: 15px 5px;
+}
+section#facilitators div.row div div.img img{
+  margin: auto;
+	width: 150px;
+	height: 150px;
+}
+section#facilitators div.row div div.img img:hover{
+	opacity: 0.6;
+}
+section#facilitators div.row div div.details{
+	padding: 0px 10px;
+}
+section#facilitators div.row div div.details a{
+	text-decoration: none;
+}
+section#facilitators div.row div div.details h4{
+	color: #31C229;
+	font-size: 22px;
+	font-family: 'Lato', san-serif;
+}
+section#facilitators div.row div div.details h4:hover{
+	color: #999;
+}
+section#facilitators div.row div div.details p{
+	color: #aaa;
+}
+section#facilitators div.row div div.details p a{
+	color: #0c0;
+}
+
+
+/*====== Pioneers ======*/
+section#pioneers{
+	display: block;
+	padding-bottom: 30px;
+}
+section#pioneers h3.header{
+	padding-bottom: 20px;
+	color: #333;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 26px;
+}
+section#pioneers div.row div div.img{
+	padding: 15px 10px;
+}
+section#pioneers div.row div div.img img{
+  margin: auto;
+	width: 120px;
+	height: 120px;
+}
+section#pioneers div.row div div.img img:hover{
+	opacity: 0.7;
+}
+section#pioneers div.row div div.details{
+	padding: 0px 10px;
+}
+section#pioneers div.row div div.details p{
+	color: #555;
+	font-size: 16px;
+}
+
+
+/*======= Join Pioneer Users======*/
+section#contact-us{
+	display: block;
+	background-color: #262626;
+	padding: 25px 10px;
+}
+section#contact-us div.row div{
+	padding: 0px 20px;
+}
+section#contact-us h3.header{
+	color: #ffffff !important;
+	padding-bottom: 20px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+section#contact-us label,
+section#contact-us p{
+	color: #999;
+}
+section#contact-us h4{
+	color: #aaa;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+section#contact-us p{
+	line-height: 1.5;
+	font-size: 14px;
+}
+section#contact-us p.social a{
+	padding: 5px 10px;
+	color: #999;
+}
+section#contact-us p.social a:hover{
+	color: #fff;
+}
+section#contact-us label{
+	font-size: 14px;
+	font-weight: normal;
+}
+section#contact-us form {
+	margin-right: auto;
+	margin-left: 20px;
+	padding: 15px;
+	border: 1px solid #999;
+	border-radius: 20px;
+}
+section#contact-us form .form-control{
+	/*width: 80%;*/
+	border-radius: 0px;
+}
+section#contact-us form .btn{
+	background-color: #00aa00;
+	border: 0px;
+	color: #fff;
+	padding: 5px 15px;
+	font-size: 16px;
+	height: auto;
+}
+section#contact-us form .btn:hover{
+	background-color: #31C229;
+}
+
+
+/*====== Footer ======*/
+footer#footer{
+	background-color: #262626;
+	padding: 10px 0px;
+}
+footer#footer p{
+	color: #999;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+footer#footer a{
+	color: #31C229;
+}
+
+
+
+
+@media (max-width: 991px) {
+	
+}
+
+
+@media (max-width: 768px) {
+	
+}

@@ -1,0 +1,39 @@
+/*
+*	 Author: Abdulwahab Nasir (weybansky)
+*	  Email: weybansky@gmail.com
+*	 Github: https://github.com/weybansky
+*	Website: https://www.weybanskytech.com.ng
+*/
+
+/*GLOBAL*/
+a:hover{
+	/*text-decoration: none;*/
+}
+
+/*The Main All Posts Page Body*/
+body{
+	/*margin-top: 120px;*/
+}
+
+section#recommended div.panel-body,
+section#latest div.panel-body{
+	border-bottom: 2px solid #eeeeee;
+}
+
+section#recommended div.panel-body div.post-details a,
+section#latest div.panel-body div.post-details a{
+	color: #333333;
+}
+section#recommended div.panel-body div.post-details a:hover,
+section#latest div.panel-body div.post-details a:hover{
+	color: #31C229;
+	text-decoration: none;
+}
+
+section#recommended div.panel-body .fa,
+section#latest div.panel-body .fa{
+	font-size: 6px !important;
+	vertical-align: middle;
+	color: #555555;
+	padding: 0px 5px;
+}

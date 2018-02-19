@@ -1,0 +1,15 @@
+/*
+*	 Author: Abdulwahab Nasir (weybansky)
+*	  Email: weybansky@gmail.acom
+*	 Github: https://github.com/weybansky
+*	Website: https://www.weybanskytech.com.ng
+*/
+
+nav.navbar{margin-bottom: 0px;}
+
+div.col-md-2{
+	background-color: #31C229;
+		
+	position: relative;
+  height: calc(100vh - 75px);
+}

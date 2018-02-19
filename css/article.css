@@ -1,0 +1,154 @@
+/*
+*	 Author: Abdulwahab Nasir (weybansky)
+*	  Email: weybansky@gmail.com
+*	 Github: https://github.com/weybansky
+*	Website: https://www.weybanskytech.com.ng
+*/
+
+/*GLOBAL*/
+/*The Main Article Page Body*/
+#article{
+	/*margin-top: 70px;*/
+}
+
+/*============The Article Head=============*/
+div.article-head div.article-head-img img{
+	width: 100%;
+}
+
+div.article-head h3{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 26px;
+	padding-left: 10px;
+}
+
+div.article-head-body{
+	padding-left: 10px;
+}
+
+div.article-head-body p span{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+
+div.article-head-body p a{
+	color: #31C229;
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+}
+div.article-head-body p a:hover{
+	color: #333333;
+}
+
+div.article-head-body i{
+	font-size: 6px !important;
+	vertical-align: middle;
+	color: #555555;
+	padding: 0px 5px;
+}
+
+div.article-head-body a.btn{
+	border-radius: 30px;
+	border: 1px solid #31C229;
+	padding: 3px 10px;
+	font-size: 16px;
+}
+div.article-head-body a.btn:hover{
+	color: #eeeeee;
+	background-color: #31C229;
+}
+
+/*=============Article Body=================*/
+div.article-body{
+	padding-top: 15px;
+}
+
+div.article-property{
+	padding: 15px 5px;
+	margin-top: 5px;
+	margin-bottom: 7px;
+}
+
+div.article-property a{
+	display: inline-block;
+	padding-right: 7px;
+	padding-bottom: 7px;
+}
+div.article-property i{
+	vertical-align: middle;
+	font-size: 18px;
+	margin-right: 2px;
+}
+div.article-property a span{
+	color: #31C229;
+	text-decoration: underline;
+}
+
+div.article-property a span:hover{
+	color: #333333;
+	text-decoration: none;
+}
+
+/*=============Article Footer============*/
+section.article-footer ul.nav-tabs{
+	margin-bottom: 5px;
+}
+
+section.article-footer ul.nav-tabs li a{
+	color: #ffffff;
+	background-color: #31C229;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	padding: 8px 18px;
+	padding-bottom: 5px;
+	margin-right: -3px;
+	border: 0px transparent #31C229 !important;
+}
+
+
+
+section.article-footer div.tab-content #comment-section div.row,
+section.article-footer div.tab-content #review-section div.row{
+
+}
+
+section.article-footer div#commentAndReviews div.row{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 80px;
+}
+
+section.article-footer div#commentAndReviews div.row:nth-child(even){
+	background-color: #eeeeee;
+}
+
+section.article-footer div#commentAndReviews div.row img{
+	margin-top: 10px;
+}
+
+section.article-footer div#commentAndReviews div.row span.username,
+section.article-footer div#commentAndReviews div.row span.username a{
+	color: #31C229 !important;
+}
+
+
+section.article-footer div.tab-content #review-section{
+	/*display: none;*/
+}
+
+
+
+/*For Destop View*/
+@media (min-width: 991px) {
+	div.article-head div.article-head-img img{
+		width: 80%;
+	}
+	div.article-head h3{
+		padding-left: 25px
+	}
+	div.article-head-body{
+		padding-left: 40px;
+	}
+}

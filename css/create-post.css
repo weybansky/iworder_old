@@ -1,0 +1,49 @@
+/*
+*	 Author: Abdulwahab Nasir (weybansky)
+*	  Email: weybansky@gmail.acom
+*	 Github: https://github.com/weybansky
+*	Website: https://www.weybanskytech.com.ng
+*/
+
+section#create-post h3.h3{
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 10px;
+}
+
+form#create-post{
+	margin-bottom: 20px;
+	background-color: #e2fae1;
+	padding: 15px;
+}
+
+form#create-post input:focus,
+form#create-post textarea:focus{
+	border-color: #31C229;
+}
+
+form#create-post label,
+form#create-post p.help-block{
+	padding-left: 7px;
+}
+
+form#create-post input.form-control{
+	padding: 7px 15px;
+	border-radius: 30px;
+}
+
+form#create-post textarea{
+	padding: 7px 15px;
+	border-radius: 15px;
+}
+
+form#create-post button.btn{
+	padding: 7px 20px;
+	border-radius: 30px;
+	border: 1px solid #31C229;
+	background-color: #fff;
+}
+
+form#create-post button.btn:hover{
+	background-color: #31C229;
+	color: #fff;
+}

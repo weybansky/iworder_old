@@ -1,0 +1,223 @@
+/*
+*	 Author: Abdulwahab Nasir (weybansky)
+*	  Email: weybansky@gmail.com
+*	 Github: https://github.com/weybansky
+*	Website: https://www.weybanskytech.com.ng
+*/
+
+/*Global*/
+#profile-page{
+	/*margin-top: 50px;*/
+}
+
+#profile-page #profile{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	/*background-color: #f5f5f5;*/
+}
+
+#profile-page #profile div img#profile-picture{
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	float: right;
+	margin-right: 7px;
+	margin-left: 25px;
+}
+
+#profile-page #profile #profile-details h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+	letter-spacing: 2px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+#profile-page #profile #profile-details p#profile-username{
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 7px;
+}
+
+#profile-page #profile #profile-details p#profile-username .fa-at{
+	font-size: 18px;
+	margin-right: 3px;
+	vertical-align: middle;
+	color: #31C229;
+}
+
+#profile-page #profile #profile-details p#profile-active .fa{
+	font-size: 12px;
+	margin-right: 3px;
+}
+
+#profile-page #profile #profile-details p a#follow{
+	border: 2px solid #31C229;
+	border-radius: 30px;
+	padding: 5px 15px;
+}
+
+#profile-page #profile #profile-details p a#follow:hover{
+	color: #ffffff;
+	background-color: #31C229;
+}
+
+#profile-page #profile #profile-details p a#following{
+	margin-left: 10px;
+	border: 2px solid #31C229;
+	border-radius: 30px;
+	color: #ffffff;
+	color: #ffffff;
+	background-color: #31C229;
+	padding: 5px 15px;
+}
+
+#profile-page #profile #profile-details p a#following:hover{
+	color: #00ff00;
+	background-color: #ffffff;
+}
+
+#profile-page #profile #profile-short-bio p{
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+#profile-page #profile-stats{
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+#profile-page #profile-stats div{
+	padding: 0px 10px;
+}
+
+#profile-page #profile-stats div:nth-child(odd){
+	background-color: #f5f5f5;
+}
+
+#profile-page #profile-stats a{
+	color: #333333;
+}
+#profile-page #profile-stats a:hover{
+	text-decoration: none;
+	color: #31C229;
+}
+
+#profile-page #profile-stats h5{
+	/*font-weight: 600;*/
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+}
+
+#profile-page #profile-stats p{
+	font-size: 16px;
+}
+
+#profile-page #profile-page-links{
+	margin: 10px 0px;
+	min-height: 60px !important;
+}
+
+#profile-page #profile-page-links #links a{
+	display: inline-block;
+	text-align: center;
+	color: #333333;
+	text-decoration: none;
+	margin-right: 7px;
+	padding: 5px 5px;
+	padding-bottom: 7px;
+	min-width: 15px;
+}
+
+#profile-page #profile-page-links #links a:hover{
+	color: #ffffff !important;
+	background-color: #31C229;
+}
+
+#profile-page #profile-page-links #links .fa{
+	/*color: #31C229;*/
+}
+
+#profile-page #profile-page-links #edit-profile-btn a{
+	border: 2px solid #31C229;
+	border-radius: 30px;
+	padding: 5px 12px;
+	/*float: right;*/
+	vertical-align: middle;
+}
+
+#profile-page #profile-page-links #edit-profile-btn a:hover{
+	color: #ffffff;
+	background-color: #31C229;
+}
+
+/*========== Followers / Following ==========*/
+#profile-page div.followers{
+
+}
+#profile-page div.followers .panel-body img{
+	width: 50px;
+	height: 50px;
+}
+#profile-page div.followers .panel-body h5{
+	margin: 0px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+#profile-page div.followers .panel-body h5 a{
+	color: #31C229;
+	text-decoration: none;
+}
+#profile-page div.followers .panel-body h5 a:hover{
+	text-decoration: underline;
+	color: #009;
+}
+#profile-page div.followers .panel-body a.btn{
+	border-radius: 30px;
+	padding: 7px 15px;
+	border: 2px solid #31C229;
+	min-width: 84px;
+}
+#profile-page div.followers .panel-body a.btn#follow:hover{
+	color: #ffffff;
+	background-color: #31C229;
+}
+#profile-page div.followers .panel-body a.btn#following{
+	color: #ffffff;
+	background-color: #31C229;
+}
+#profile-page div.followers .panel-body a.btn#following:hover{
+	background-color: #ffffff;
+	color: #31C229;
+}
+
+@media (max-width: 768px) {
+	#profile-page #profile #profile-details h3{
+	 font-size: 24px;
+	}
+	#profile-page #profile div img#profile-picture{
+		height: 140px;
+		width: 140px;
+	}
+	#profile-page #profile #profile-details p a#follow{
+		padding: 5px 12px;
+	}
+	#profile-page #profile #profile-details p a#following{
+		padding: 5px 12px;
+	}
+	#profile-page #profile #profile-short-bio p{
+		margin-top: 2px;
+	}
+	#profile-page #profile-stats{
+		padding-top: 3px;
+		padding-bottom: 0px;
+	}
+
+
+
+	#profile-page div.followers .panel-body div.row div{
+		padding: 0px 7px;
+	}
+	#profile-page div.followers .panel-body a.btn{
+		padding: 5px 10px;
+	}
+}

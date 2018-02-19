@@ -1,0 +1,101 @@
+/*
+*	 Author: Abdulwahab Nasir (weybansky)
+*	  Email: weybansky@gmail.acom
+*	 Github: https://github.com/weybansky
+*	Website: https://www.weybanskytech.com.ng
+*/
+.icon-bar{
+	color: #ffffff !important;
+}
+
+
+/*The Top Navigation*/
+nav.navbar-default{
+	border: 0px solid;
+	background-color: #31C229 !important;
+	/*position: fixed;*/
+	width: 100%;
+	/*z-index: 5;*/
+	/*top: 0;*/
+
+	border-radius: 0px;
+}
+
+nav.navbar-default .navbar-form {
+  border-color: #31C229;
+}
+
+nav div.navbar-header{
+	min-width: 25%;
+}
+
+nav div.navbar-header a{
+	/*margin-left: 30px;*/
+	font-family: monospace;
+	color: #ffffff !important;
+	font-size: 25px;
+	font-weight: 600;
+	margin: 0px !important;
+	padding: 5px !important;
+}
+
+nav div.navbar-header img{
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px !important;
+	height: 40px;
+}
+
+nav div.collapse{
+	border: 0px solid;
+}
+
+nav div.collapse form{
+	border: 0px solid;
+	vertical-align: middle;
+}
+
+nav div.collapse form div.input-group span{
+	background-color: #ffffff;
+	color: #009900;
+	border: 0px solid transparent !important;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+}
+
+nav div.collapse form div.input-group input{
+	border: 0px solid transparent;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+nav div.collapse form div.input-group input:focus{
+	box-shadow: none;
+}
+
+nav div.collapse form button{
+	display: none;
+}
+
+nav div div.collapse ul li a{
+	color: #ffffff !important;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	font-size: 16	px; 
+	padding: 10px;
+	margin: 5px;
+}
+
+nav div div.collapse ul li:hover{
+	background-color: #ffffff;
+	color: #31C229 !important;
+}
+nav div div.collapse ul li a:hover{
+	color: #31C229 !important;
+}
+
+/*Top Navber Modifications*/
+nav div div.collapse ul li a i{
+	padding-right: 10px;
+	font-size: 16px;
+	font-weight: lighter
+}

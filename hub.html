@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hub | IWORDER</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/fonts.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/hub.css">
+</head>
+<body>
+	<!-- The top Nav Bar -->
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">
+	      	<img src="img/11.png" alt="Main logo">
+	      </a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <form class="navbar-form navbar-left" method="get" action="/search">
+	        <div class="input-group">
+	          <span class="input-group-addon"><i class=" fa fa-search" aria-hidden="true"></i></span>
+	          <input type="text" class="form-control" placeholder="Search">
+	        </div>
+	        <button style="display: none;" type="submit" class="btn btn-default">Submit</button>
+	      </form>
+
+	      <ul class="nav navbar-nav navbar-right">			
+					<li>
+						<a href="">
+							<i aria-hidden="true" class="fa fa-user"></i>Me
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i aria-hidden="true" class="fa fa-bell"></i>2
+						</a>
+					</li>
+			    <li>
+			    	<a href="#">Log out</a>
+			    </li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<section id="recommended">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+					<!-- Beginning of the Recommended for You Panel -->
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<!-- Panel Heading -->
+							<h3 class="panel-title">
+								Recommended for you
+								<!-- dropdown menu -->
+								<div class="dropdown pull-right">
+									<a style="color: #333;" class="dropdown-toggle" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+										<!-- Edit this to change the menu options -->
+										<li><a href="#">Action</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#">Separated link</a></li>
+									</ul>
+								</div>
+							</h3>
+						</div>
+						<!-- End of Panel Heading -->
+						
+						<!-- Content of Recommended for You -->
+						<div class="panel-body">
+							<div class="post-details well well-sm">
+								<a href="">
+									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
+								</a>
+								<h3><a href="#link-to-post">Tears of the Sun</a></h3>
+								<p><a href="#author-profile">Richard Diamond</a> | <a href="#post-category">Comedy</a></p>
+							</div>
+							<div class="post-options">
+								<div class="">
+									<span class="post-likes">7 Likes</span>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="post-comments">3 Comments</span>
+								</div>
+							</div>
+						</div>
+						
+						<div class="panel-body">
+							<div class="post-details well well-sm">
+								<a href="">
+									<img class="img-responsive img-rounded" src="img/background2.jpg" alt="Post image">
+								</a>
+								<h3><a href="#link-to-post">Tears of the Sun</a></h3>
+								<p><a href="#author-profile">Richard Diamond</a> | <a href="#post-category">Comedy</a></p>
+							</div>
+							<div class="post-options">
+								<div class="">
+									<span class="post-likes">7 Likes</span>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="post-comments">3 Comments</span>
+								</div>
+							</div>
+						</div>
+
+					</div><!-- End of the Recommended for you Panel -->
+				</div><!-- End of the whole column -->
+			</div>
+		</div>
+	</section>
+
+	<section id="latest">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+					<!-- Beginning of the Latest Post Panel -->
+					<div class="panel panel-default">
+						<!-- Panel Heading -->
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								Latest Posts
+								<!-- dropdown menu -->
+								<div class="dropdown pull-right">
+									<a style="color: #333;" class="dropdown-toggle" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+										<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+										<!-- Edit this to change the menu options -->
+										<li><a href="#">Action</a></li>
+										<li role="separator" class="divider"></li>
+										<li><a href="#">Separated link</a></li>
+									</ul>
+								</div>
+							</h3>
+						</div>
+						<!-- End of Panel Heading -->
+						
+						<!-- Content of Latest Post -->
+						<div class="panel-body" style="border-bottom: 2px solid #eeeeee;">
+							<div class="post-details well well-sm">
+								<a href="">
+									<img class="img-responsive img-rounded" src="img/article-img2.jpg" alt="Post image">
+								</a>
+								<h3><a href="">Tears of the Sun</a></h3>
+								<p><a href="">Richard Diamond</a> | <a href="">Comedy</a></p>
+							</div>
+							<div class="post-options">
+								<div>
+									<p class="post-excerpt">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nihil laboriosam dolorum repellat, sed deleniti aliquam fugiat laudantium delectus sint unde iure, odio necessitatibus rem quisquam non esse voluptate ipsum!...
+									</p>
+									<span class="post-likes">7 Likes</span>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="post-comments">3 Comments</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="panel-body" style="border-bottom: 2px solid #eeeeee;">
+							<div class="post-details well well-sm">
+								<a href="">
+									<img class="img-responsive img-rounded" src="img/portrait1.jpg" alt="Post image">
+								</a>
+								<h3>
+									<a href="">
+										Tears of the Sun
+									</a>
+								</h3>
+								<p><a href="">Richard Diamond</a> | <a href="">Comedy</a></p>
+							</div>
+							<div class="post-options">
+								<div>
+									<p class="post-excerpt">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere nihil laboriosam dolorum repellat, sed deleniti aliquam fugiat laudantium delectus sint unde iure, odio necessitatibus rem quisquam non esse voluptate ipsum!...
+									</p>
+									<span class="post-likes">7 Likes</span>
+									<i class="fa fa-circle" aria-hidden="true"></i>
+									<span class="post-comments">3 Comments</span>
+								</div>
+							</div>
+						</div>
+
+					</div><!-- End of the Latest Post panel -->
+				</div><!-- End of the whole column -->
+			</div>
+		</div>
+	</section>
+
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
