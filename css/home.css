@@ -46,11 +46,11 @@ section#home-page-nav div#home-page-nav-row > div p#user-name a:hover{
 	text-decoration: underline;
 }
 
-section#home-page-nav div#home-page-nav-row > div .fa{
+section#home-page-nav div#home-page-nav-row > div i{
 	padding-top: 10px;
 	color: #51b14f;
 }
-section#home-page-nav div#home-page-nav-row > div .fa:hover{
+section#home-page-nav div#home-page-nav-row > div i:hover{
 	/*color: #51b14f;*/
 	color: #555;
 }
