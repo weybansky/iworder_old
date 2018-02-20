@@ -4,8 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Conversation | IWORDER</title>
-
+	<title>Message | IWORDER</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
 	<!-- Font Awesome [dot] com -->
@@ -15,7 +14,7 @@
 </head>
 <body>
 	<!-- The top Nav Bar -->
-<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <a href="#menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -88,12 +87,12 @@
 								</a>
 							</li>
 							<li>
-								<a class="" href="search-user.html">
+								<a class="" href="people.html">
 									<i class="fas fa-users"></i>People
 								</a>
 							</li>
 							<li>
-								<a class="active" href="conversation.html">
+								<a class="active" href="">
 									<i class="far fa-envelope"></i>Messages
 									<span class="pull-right badge">5</span>
 								</a>
@@ -135,38 +134,11 @@
 										<button class="" type="submit">Search</button>
 									</div>
 								</form>
-							</div>	
-								
-
-							<div class="panel panel-default not-read">
-								<div class="panel-heading">
-									<input type="checkbox">
-									<a href="">
-										<img src="img/portrait1.jpg" alt="Profile Image" class="img-responsive">
-										<span>Jany Iworder @janywoder</span>
-									</a>
-								</div>
-								<div class="panel-body">
-									<div class="">
-										<span id="msg-time">2018-02-15 8:45am</span>
-										<h4 id="msg-title">
-											<a href="message.html">
-												Message Title
-											</a>
-										</h4>
-										<p>Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusamus expedita enim numquam id fugiat sit. Sed sit cupiditate...</p>
-									</div>
-								</div>
-								<div class="panel-footer">
-									<a id="starred" href="#starred" class=""><i class="fas fa-star"></i></a>
-									<a id="delete" href="#delete" class="pull-right">Delete</a>
-								</div>
 							</div>
 
 
 							<div class="panel panel-default">
 								<div class="panel-heading">
-									<input type="checkbox">
 									<a href="">
 										<img src="img/portrait1.jpg" alt="Profile Image" class="img-responsive">
 										<span>Jany Iworder @janywoder</span>
@@ -175,17 +147,17 @@
 								<div class="panel-body">
 									<div class="">
 										<span id="msg-time">2018-02-15 8:45am</span>
-										<h4 id="msg-title">
-											<a href="message.html">
-												Message Title
-											</a>
-										</h4>
-										<p>Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusamus expedita enim numquam id fugiat sit. Sed sit cupiditate...</p>
+										<h3 id="msg-title">
+											Message Title
+										</h3>
+										<p>Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore modi, magnam facere facilis quas quae perspiciatis voluptatem minima similique aliquam culpa alias perferendis illo impedit vero ex odio sunt nemo doloremque, obcaecati aliquid nisi dolore numquam adipisci. Labore eos deserunt sapiente sequi aliquid. Autem dolorum sit doloremque, facere ullam architecto quia. Illum officiis blanditiis asperiores quibusdam reiciendis itaque iure tempora at, ex quam vero cupiditate eos nostrum, recusandae dolorem animi?</p>
+
 									</div>
-								</div>
-								<div class="panel-footer">
-									<a id="starred" href="#starred" class="starred"><i class="fas fa-star"></i></a>
-									<a id="delete" href="#delete" class="pull-right">Delete</a>
+									<div id="option">
+										<a id="starred" href="#starred" class=""><i class="fas fa-star"></i></a>
+										<a id="delete" href="#delete" class="pull-right" style="padding: 0px 5px">Delete</a>
+										<a id="delete" href="#compose.html" class="pull-right" style="padding: 0px 5px">Reply</a>
+									</div>
 								</div>
 							</div>
 						</div>

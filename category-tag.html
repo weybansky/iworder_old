@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Category/Tag | IWORDER</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<!-- Font Awesome [dot] com -->
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/search.css">
 </head>
@@ -16,12 +17,10 @@
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
+	      <a href="#menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	      	<i class="fas fa-bars"></i>
+	      </a>
+
 	      <a class="navbar-brand" href="#">
 	      	<img src="img/11.png" alt="Main logo">
 	      </a>
@@ -38,45 +37,48 @@
 	      </form>
 
 	      <ul class="nav navbar-nav navbar-right">			
-			<li>
-				<a href="#profile">
-					<i aria-hidden="true" class="fa fa-user"></i>Me
-				</a>
-			</li>
-			<li>
-				<a href="#notifications">
-					<i aria-hidden="true" class="fa fa-bell"></i>2
-				</a>
-			</li>
-	        <li>
-	        	<a href="#logout">Log out</a>
-	        </li>
-	      </ul>
+					<li>
+						<a href="profile-me.html">
+							<i class="far fa-user"></i>Me
+						</a>
+					</li>
+					<li>
+						<a href="#messages">
+							<i class="far fa-bell"></i>2
+						</a>
+					</li>
+			    <li>
+			    	<a href="#">
+			    		Log out
+			    	</a>
+			    </li>
+				</ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
-
 	<section id="search-page">
 		<div class="container">
 
 			<div class="row search-post-content category-tag">
 				<div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
 					<h3 id="title">
-						Category / Tag <i class="fa fa-arrow-right" aria-hidden="true"></i> "Category/Tag Name"
+						Category<!-- Name / Tag Name-->
 					</h3>
 					<div class="row contents">
-
+						<!-- lists of all post under the category or tag -->
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="post well well-sm">
-								<a href="article.html">
+								<a id="post-img" href="article.html">
 									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
 								</a>
 								<p id="post-title"><a href="article.html">Tears of the Sun</a></p>
 								<p id="post-details">
 									<a href="profile.html">
-										<i class="fa fa-user" style="color: #333;padding-left: 2px;" aria-hidden="true"></i> Richard Diamond
+										<!-- <i class="fa fa-user"  aria-hidden="true"></i> -->
+										<i class="far fa-user" style="color: #333;padding-left: 2px;"></i>
+										Richard Diamond
 									</a>
-									 | 
+									<span>|</span>
 									<a href="category-tag.html">
 										Comedy
 									</a>
@@ -87,15 +89,17 @@
 
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="post well well-sm">
-								<a href="article.html">
-									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
+								<a id="post-img" href="article.html">
+									<img class="img-responsive img-rounded" src="img/log4.jpg" alt="Post image">
 								</a>
 								<p id="post-title"><a href="article.html">Tears of the Sun</a></p>
 								<p id="post-details">
 									<a href="profile.html">
-										<i class="fa fa-user" style="color: #333;" aria-hidden="true"></i> Richard Diamond
+										<!-- <i class="fa fa-user"  aria-hidden="true"></i> -->
+										<i class="far fa-user" style="color: #333;padding-left: 2px;"></i>
+										Richard Diamond
 									</a>
-									 | 
+									<span>|</span>
 									<a href="category-tag.html">
 										Comedy
 									</a>
@@ -104,15 +108,17 @@
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="post well well-sm">
-								<a href="article.html">
-									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
+								<a id="post-img" href="article.html">
+									<img class="img-responsive img-rounded" src="img/bg-about1.jpg" alt="Post image">
 								</a>
 								<p id="post-title"><a href="article.html">Tears of the Sun</a></p>
 								<p id="post-details">
 									<a href="profile.html">
-										<i class="fa fa-user" style="color: #333;" aria-hidden="true"></i> Richard Diamond
+										<!-- <i class="fa fa-user"  aria-hidden="true"></i> -->
+										<i class="far fa-user" style="color: #333;padding-left: 2px;"></i>
+										Richard Diamond
 									</a>
-									 | 
+									<span>|</span>
 									<a href="category-tag.html">
 										Comedy
 									</a>
@@ -121,15 +127,17 @@
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="post well well-sm">
-								<a href="article.html">
-									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
+								<a id="post-img" href="article.html">
+									<img class="img-responsive img-rounded" src="img/team/abiodun-praise.jpg" alt="Post image">
 								</a>
 								<p id="post-title"><a href="article.html">Tears of the Sun</a></p>
 								<p id="post-details">
 									<a href="profile.html">
-										<i class="fa fa-user" style="color: #333;" aria-hidden="true"></i> Richard Diamond
+										<!-- <i class="fa fa-user"  aria-hidden="true"></i> -->
+										<i class="far fa-user" style="color: #333;padding-left: 2px;"></i>
+										Richard Diamond
 									</a>
-									 | 
+									<span>|</span>
 									<a href="category-tag.html">
 										Comedy
 									</a>
@@ -138,74 +146,23 @@
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-12">
 							<div class="post well well-sm">
-								<a href="article.html">
+								<a id="post-img" href="article.html">
 									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
 								</a>
 								<p id="post-title"><a href="article.html">Tears of the Sun</a></p>
 								<p id="post-details">
 									<a href="profile.html">
-										<i class="fa fa-user" style="color: #333;" aria-hidden="true"></i> Richard Diamond
+										<!-- <i class="fa fa-user"  aria-hidden="true"></i> -->
+										<i class="far fa-user" style="color: #333;padding-left: 2px;"></i>
+										Richard Diamond
 									</a>
-									 | 
+									<span>|</span>
 									<a href="category-tag.html">
 										Comedy
 									</a>
 								</p>
 							</div>
 						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<div class="post well well-sm">
-								<a href="article.html">
-									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
-								</a>
-								<p id="post-title"><a href="article.html">Tears of the Sun</a></p>
-								<p id="post-details">
-									<a href="profile.html">
-										<i class="fa fa-user" style="color: #333;" aria-hidden="true"></i> Richard Diamond
-									</a>
-									 | 
-									<a href="category-tag.html">
-										Comedy
-									</a>
-								</p>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<div class="post well well-sm">
-								<a href="article.html">
-									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
-								</a>
-								<p id="post-title"><a href="article.html">Tears of the Sun</a></p>
-								<p id="post-details">
-									<a href="profile.html">
-										<i class="fa fa-user" style="color: #333;" aria-hidden="true"></i> Richard Diamond
-									</a>
-									 | 
-									<a href="category-tag.html">
-										Comedy
-									</a>
-								</p>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6 col-xs-12">
-							<div class="post well well-sm">
-								<a href="article.html">
-									<img class="img-responsive img-rounded" src="img/article-img.jpg" alt="Post image">
-								</a>
-								<p id="post-title"><a href="article.html">Tears of the Sun</a></p>
-								<p id="post-details">
-									<a href="profile.html">
-										<i class="fa fa-user" style="color: #333;" aria-hidden="true"></i> Richard Diamond
-									</a>
-									 | 
-									<a href="category-tag.html">
-										Comedy
-									</a>
-								</p>
-							</div>
-						</div>
-
-
 					</div>
 				</div>
 

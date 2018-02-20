@@ -102,6 +102,17 @@ section#search-page div.search-post-content div.well{
 	padding-left: 7px;
 }
 
+section#search-page div.search-post-content div.well a#post-img{
+	overflow-y: hidden !important;
+	height: 300px;
+	display: block;
+}
+
+section#search-page div.search-post-content div.well img{
+	min-height: 200px;
+	width: 100%;
+}
+
 section#search-page div.search-post-content div.post p a{
 	color: #090;
 }
@@ -127,13 +138,15 @@ section#search-page div.search-post-content div.post p#post-details a:hover{
 }
 
 
-
+/* Category / Tag Styling*/
 section#search-page div.category-tag h3#title{
 	font-weight: bold;
 	color: #fff;
-	background-color: #319e2e;
-	padding: 35px 10px;
-	padding-top: 40px;
+	font-size: 30px;
+	letter-spacing: 0.2em;
+	font-family: 'Patrick Hand', cursive;
+	background-color: #31C229;
+	padding: 20px 10px;
 }
 section#search-page div.category-tag p#post-title{
 	font-size: 24px !important;
@@ -154,12 +167,14 @@ section#search-page div.category-tag div.well{
 		display: block;
 		padding-top: 5px;
 	}
-
+	section#search-page div.category-tag h3#title{
+		font-size: 30px;
+	}
 }
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	/*Mobile View Adjustments*/
 	section#search-page div.search-form input{
 		min-width: 88%;
@@ -170,9 +185,7 @@ section#search-page div.category-tag div.well{
 
 	section#search-page div.search-user-content h3#title,
 	section#search-page div.search-post-content h3#title{
-		font-size: 18px;
-		margin-bottom: 20px;
-		padding-left: 5px;
+		font-size: 26px;
 	}
 
 	section#search-page div.search-user-content div.row > div{
@@ -225,10 +238,5 @@ section#search-page div.category-tag div.well{
 
 
 	/* Styling for Category / Tag Page*/
-	section#search-page div.category-tag h3#title{
-		padding: 30px 3px;
-		padding-top: 35px;
-	}
-
 
 }

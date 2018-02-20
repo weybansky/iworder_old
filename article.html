@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Article | IWORDER</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<!-- Font Awesome [dot] com -->
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/article.css">
 </head>
@@ -16,13 +17,11 @@
 	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-				<a class="navbar-brand" href="#">
+	      <a href="#menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	      	<i class="fas fa-bars"></i>
+	      </a>
+
+	      <a class="navbar-brand" href="#">
 	      	<img src="img/11.png" alt="Main logo">
 	      </a>
 	    </div>
@@ -39,13 +38,13 @@
 
 	      <ul class="nav navbar-nav navbar-right">			
 					<li>
-						<a href="">
-							<i aria-hidden="true" class="fa fa-user"></i>Me
+						<a href="profile-me.html">
+							<i class="far fa-user"></i>Me
 						</a>
 					</li>
 					<li>
-						<a href="">
-							<i aria-hidden="true" class="fa fa-bell"></i>2
+						<a href="#messages">
+							<i class="far fa-bell"></i>2
 						</a>
 					</li>
 			    <li>
@@ -62,7 +61,7 @@
 	<section id="article">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-sm-8 col-xs-12 col-xs-offset-0">
+				<div class="col-md-8 col-sm-9 col-xs-12 col-xs-offset-0">
 					<!-- Article Head -->
 					<div class="article-head">
 						<div class="article-head-img">
@@ -73,16 +72,19 @@
 							<p>
 								<span>by</span>
 								<a href="#">Bluegirl</a>
-								<i class="fa fa-circle" aria-hidden="true"></i>
-								<a href="#follow" class="btn btn-default">Follow</a>
+								<i class="fas fa-circle"></i>
+
+								<!-- use id of following of user is following the author -->
+								<!-- use id of follow of user is not following the author -->
+								<a id="follow" href="#follow" class="btn btn-default">Follow</a>
 							</p>
 							<p>
 								<span>@ Nov 12, 2017 </span>
-								<i class="fa fa-circle" aria-hidden="true"></i>
+								<i class="fas fa-circle"></i>
 								<span>Poetry</span>
-								<i class="fa fa-circle" aria-hidden="true"></i>
+								<i class="fas fa-circle"></i>
 								<span>Romance</span>
-								<i class="fa fa-circle" aria-hidden="true"></i>
+								<i class="fas fa-circle"></i>
 								<span>4 comments (2 reviews)</span>
 							</p>
 						</div>
@@ -96,15 +98,15 @@
 
 					<div class="article-property">
 						<a href="">
-							<i style="color: #ff0000;" class="fa fa-heart-o" aria-hidden="true"></i>
+							<i style="color: #ff0000;" class="far fa-heart"></i>
 							12
 						</a>
 						<a href="">
-							<i style="color: #0000ff;" class="fa fa-commenting-o" aria-hidden="true"></i>
+							<i style="color: #0000ff;" class="far fa-comment-alt"></i>
 							5
 						</a>
 						<a href="">
-							<i style="color: #ffff00;" class="fa fa-star" aria-hidden="true"></i>
+							<i style="color: #ffff00;" class="fas fa-star"></i>
 							2
 						</a>
 						<a href="#like">
@@ -170,7 +172,8 @@
 
 						<!-- List of all Comments and Reviews -->
 						<div id="commentAndReviews">
-							<div class="row">
+							<!-- Make sure to put an id="review for each review" -->
+							<div id="comment" class="row">
 								<div class="col-md-1 col-sm-1 col-xs-2">
 									<a href="">
 										<img style="width: 50px; height: 50px; margin-right: 10px;" class=" img-circle" src="img/article-img.jpg" alt="Comment Author">
@@ -195,7 +198,32 @@
 									</p>
 								</div>
 							</div>
-							<div class="row">
+							<div id="review" class="row">
+								<div class="col-md-1 col-sm-1 col-xs-2">
+									<a href="">
+										<img style="width: 50px; height: 50px;" class=" img-circle" src="img/logo.jpg" alt="Review Author">
+									</a>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-10">
+									<p>
+										Sibongie
+										(<span class="username"><a href="">@sibongie</a></span>) 
+										wrote a review:
+										<br>
+										<span id="" class="username">Rainmaker</span>
+										<br>
+										<span id="">5 reviews</span>
+										<br>
+										<span id="">13.11.2017 15:03</span>
+									</p>
+								</div>
+								<div class="col-md-8 col-sm-8 col-xs-12">
+									<p style="padding-top: 5px;">
+										Reviews Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo inventore eligendi iste quae autem at impedit animi odit adipisci praesentium voluptate, aspernatur accusamus qui, ab quos fugiat assumenda reiciendis reprehenderit?
+									</p>
+								</div>
+							</div>
+							<div id="comment" class="row">
 								<div class="col-md-1 col-sm-1 col-xs-2">
 									<a href="">
 										<img style="width: 50px; height: 50px;" class=" img-circle" src="img/portrait1.jpg" alt="Comment Author">
@@ -220,13 +248,13 @@
 									</p>
 								</div>
 							</div>
-							<div class="row">
+							<div id="review" class="row">
 								<div class="col-md-1 col-sm-1 col-xs-2">
 									<a href="">
 										<img style="width: 50px; height: 50px;" class=" img-circle" src="img/logo.jpg" alt="Review Author">
 									</a>
 								</div>
-								<div class="col-md-4 col-sm-4 col-xs-10">
+								<div class="col-md-3 col-sm-3 col-xs-10">
 									<p>
 										Sibongie
 										(<span class="username"><a href="">@sibongie</a></span>) 
@@ -239,7 +267,32 @@
 										<span id="">13.11.2017 15:03</span>
 									</p>
 								</div>
-								<div class="col-md-7 col-sm-7 col-xs-12">
+								<div class="col-md-8 col-sm-8 col-xs-12">
+									<p style="padding-top: 5px;">
+										Reviews Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo inventore eligendi iste quae autem at impedit animi odit adipisci praesentium voluptate, aspernatur accusamus qui, ab quos fugiat assumenda reiciendis reprehenderit?
+									</p>
+								</div>
+							</div>
+							<div id="review" class="row">
+								<div class="col-md-1 col-sm-1 col-xs-2">
+									<a href="">
+										<img style="width: 50px; height: 50px;" class=" img-circle" src="img/logo.jpg" alt="Review Author">
+									</a>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-10">
+									<p>
+										Sibongie
+										(<span class="username"><a href="">@sibongie</a></span>) 
+										wrote a review:
+										<br>
+										<span id="" class="username">Rainmaker</span>
+										<br>
+										<span id="">5 reviews</span>
+										<br>
+										<span id="">13.11.2017 15:03</span>
+									</p>
+								</div>
+								<div class="col-md-8 col-sm-8 col-xs-12">
 									<p style="padding-top: 5px;">
 										Reviews Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo inventore eligendi iste quae autem at impedit animi odit adipisci praesentium voluptate, aspernatur accusamus qui, ab quos fugiat assumenda reiciendis reprehenderit?
 									</p>
@@ -252,8 +305,8 @@
 
 				<!-- empty space beside article -->
 				<!-- might be used as widget area or for ads -->
-				<div class="col-md-4 col-sm-4 col-xs-12 col-xs-offset-0">
-					<h4 class=" text-center">Widgets / Ads Section</h4>
+				<div class="col-md-4 col-sm-3 col-xs-12 col-xs-offset-0">
+					<!-- <h4 class=" text-center">Widgets / Ads Section</h4> -->
 				</div><!-- End of the Widgets Section -->
 
 			</div>

@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home | IWORDER</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<!-- Font Awesome [dot] com -->
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 
@@ -16,15 +17,13 @@
 </head>
 <body>
 	<!-- The top Nav Bar -->
-	<nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
+	      <a href="#menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	      	<i class="fas fa-bars"></i>
+	      </a>
+
 	      <a class="navbar-brand" href="#">
 	      	<img src="img/11.png" alt="Main logo">
 	      </a>
@@ -42,19 +41,21 @@
 
 	      <ul class="nav navbar-nav navbar-right">			
 					<li>
-						<a href="profile.html">
-							<i aria-hidden="true" class="fa fa-user"></i>Me
+						<a href="profile-me.html">
+							<i class="far fa-user"></i>Me
 						</a>
 					</li>
 					<li>
-						<a href="">
-							<i aria-hidden="true" class="fa fa-bell"></i>2
+						<a href="#messages">
+							<i class="far fa-bell"></i>2
 						</a>
 					</li>
 			    <li>
-			    	<a href="#">Log out</a>
+			    	<a href="#">
+			    		Log out
+			    	</a>
 			    </li>
-	      </ul>
+				</ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>

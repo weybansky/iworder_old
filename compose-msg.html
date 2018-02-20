@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Conversation | IWORDER</title>
+	<title>Compose | IWORDER</title>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -15,7 +15,7 @@
 </head>
 <body>
 	<!-- The top Nav Bar -->
-<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <a href="#menu" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -111,7 +111,7 @@
 						<h3>Coversation</h3>
 						<ul>
 							<li>
-								<a href="conversation.html" class="active">Inbox</a>
+								<a href="conversation.html">Inbox</a>
 							</li>
 							<li>
 								<a href="starred-msg.html">Starred</a>
@@ -120,74 +120,36 @@
 								<a href="deleted-msg.html">Deleted</a>
 							</li>
 							<li>
-								<a href="compose-msg.html">Compose</a>
+								<a href="compose-msg.html" class="active">Compose</a>
 							</li>
 						</ul>
 					</div>
 
 					<div class="row">
 						<div class="col-md-6 col-sm-8 col-xs-12">
-							<!-- Message Search Form -->
-							<div id="search-msg">
-								<form action="" method="">
-									<div class="form-group">
-										<input class="" type="text" placeholder="Search message">
-										<button class="" type="submit">Search</button>
-									</div>
-								</form>
-							</div>	
-								
 
-							<div class="panel panel-default not-read">
-								<div class="panel-heading">
-									<input type="checkbox">
-									<a href="">
-										<img src="img/portrait1.jpg" alt="Profile Image" class="img-responsive">
-										<span>Jany Iworder @janywoder</span>
-									</a>
+							<form id="send-message" action="">
+								<div class="form-group">
+									<label for="to">To</label>
+									<input name="to" type="text" class="form-control" placeholder="@username">
 								</div>
-								<div class="panel-body">
-									<div class="">
-										<span id="msg-time">2018-02-15 8:45am</span>
-										<h4 id="msg-title">
-											<a href="message.html">
-												Message Title
-											</a>
-										</h4>
-										<p>Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusamus expedita enim numquam id fugiat sit. Sed sit cupiditate...</p>
-									</div>
+
+								<div class="form-group">
+									<label for="title">Title</label>
+									<input name="title" type="text" class="form-control" placeholder="Message Title">
 								</div>
-								<div class="panel-footer">
-									<a id="starred" href="#starred" class=""><i class="fas fa-star"></i></a>
-									<a id="delete" href="#delete" class="pull-right">Delete</a>
+
+								<div class="form-group">
+									<label for="Message">Message</label>
+									<textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
 								</div>
-							</div>
+
+								<div class="form-group">
+									<button name="send-msg" type="submit" class="btn btn-default pull-right">Send Message</button>
+								</div>
+							</form>
 
 
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<input type="checkbox">
-									<a href="">
-										<img src="img/portrait1.jpg" alt="Profile Image" class="img-responsive">
-										<span>Jany Iworder @janywoder</span>
-									</a>
-								</div>
-								<div class="panel-body">
-									<div class="">
-										<span id="msg-time">2018-02-15 8:45am</span>
-										<h4 id="msg-title">
-											<a href="message.html">
-												Message Title
-											</a>
-										</h4>
-										<p>Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusamus expedita enim numquam id fugiat sit. Sed sit cupiditate...</p>
-									</div>
-								</div>
-								<div class="panel-footer">
-									<a id="starred" href="#starred" class="starred"><i class="fas fa-star"></i></a>
-									<a id="delete" href="#delete" class="pull-right">Delete</a>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>

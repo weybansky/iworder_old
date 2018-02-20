@@ -19,6 +19,7 @@ nav.navbar-default{
 	/*top: 0;*/
 	border-radius: 0px;
 	margin-bottom: 10px;
+	min-height: 30px !important;
 }
 
 nav.navbar-default .navbar-form {
@@ -27,23 +28,35 @@ nav.navbar-default .navbar-form {
 
 nav div.navbar-header{
 	min-width: 25%;
+	height: 35px;
 }
 
 nav div.navbar-header a{
-	/*margin-left: 30px;*/
 	font-family: monospace;
 	color: #ffffff !important;
 	font-size: 25px;
 	font-weight: 600;
 	margin: 0px !important;
-	padding: 5px !important;
+	/*padding: 5px !important;*/
+}
+
+nav div.navbar-header a.navbar-toggle{
+	background-color: #31C229 !important;
+	color:#ffffff !important;
+	border: 0px transparent;
+}
+
+nav div.navbar-header a.navbar-brand{
+	padding: 0px !important;
+	padding-top: 5px !important;
+	min-height: 30px !important;
 }
 
 nav div.navbar-header img{
 	padding: 0px;
 	margin: 0px;
 	margin-left: 10px !important;
-	height: 40px;
+	height: 30px;
 }
 
 nav div.collapse{
@@ -53,6 +66,8 @@ nav div.collapse{
 nav div.collapse form{
 	border: 0px solid;
 	vertical-align: middle;
+	margin-top: 5px;
+	margin-bottom: 3px;
 }
 
 nav div.collapse form div.input-group span{
@@ -82,7 +97,7 @@ nav div div.collapse ul li a{
 	font-family: 'Lato', sans-serif;
 	font-size: 16	px; 
 	padding: 10px;
-	margin: 5px;
+	margin: 2px;
 }
 
 nav div div.collapse ul li:hover{

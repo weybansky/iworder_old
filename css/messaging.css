@@ -7,9 +7,260 @@
 
 nav.navbar{margin-bottom: 0px;}
 
-div.col-md-2{
+div#side-bar{
 	background-color: #31C229;
-		
-	position: relative;
-  height: calc(100vh - 75px);
+	padding: 20px 0px;
+  height: calc(100vh - 30px);
+  min-height: 450px;
+}
+
+div#side-bar div#profile-img{
+	display: ;
+	margin-bottom: 20px;
+}
+
+div#side-bar div#profile-img a:hover{
+	text-decoration: none;
+}
+
+div#side-bar div#profile-img img{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+
+div#side-bar div#profile-img p{
+	font-size: 18px;
+	color: #fff;
+}
+
+
+div#side-bar div#menu ul{
+	/*display: block;*/
+	padding: 0px;
+}
+
+div#side-bar div#menu ul li{
+	list-style-type: none;
+	margin: 10px 0px;
+}
+
+div#side-bar div#menu ul li i{
+	padding-right: 10px;
+}
+
+div#side-bar div#menu ul li a{
+	color: #fff;
+	display: block;
+	font-size: 16px;
+	padding: 8px 18px;
+	padding-right: 8px;
+}
+
+div#side-bar div#menu ul li a:hover,
+div#side-bar div#menu ul li a.active{
+	text-decoration: none;
+	background-color: #fff;
+	color: #31C229;
+}
+
+
+/*Contents*/
+div#contents{
+  height: calc(100vh - 30px);
+  min-height: 500px;
+  overflow-y: scroll;
+  padding: 15px 20px;
+}
+
+
+/*Navigation*/
+div#contents div#navigation{
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+div#contents div#navigation h3{
+	display: inline-block;
+}
+div#contents div#navigation ul{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+div#contents div#navigation ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 5px;
+	margin-left: 1px;
+}
+div#contents div#navigation ul li a:hover{
+	color: #0f0;
+}
+div#contents div#navigation ul li a.active{
+	color: #0f0;
+	text-decoration: underline;
+}
+div#contents div#navigation ul li a.active:hover{
+	text-decoration: none;
+}
+
+
+/*Message Search Form*/
+div#contents div#search-msg {
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+div#contents div#search-msg input,
+div#contents div#search-msg button{
+	border-radius: 30px;
+	border: 1px solid #31C229;
+	background-color: #fff;
+}
+
+div#contents div#search-msg input: focus{
+	border-color: #31C229;
+}
+
+div#contents div#search-msg input{
+	padding: 10px 20px;
+	min-width: 200px;
+}
+
+div#contents div#search-msg button{
+	padding: 10px 15px;
+}
+
+div#contents div#search-msg button:hover{
+	color: #fff;
+	background-color: #31C229;
+}
+
+
+/*Messages*/
+
+div#contents div.panel-heading,
+div#contents div.panel-footer{
+	/*background-color: #78ea73;*/
+	background-color: #3a3;
+}
+
+div#contents div.not-read div.panel-heading,
+div#contents div.not-read div.panel-footer{
+	background-color: #a33;
+}
+
+div#contents div.panel-footer a{
+	color: #fff;
+}
+
+div#contents a#starred:hover,
+div#contents a.starred{
+	color: #ffff00;
+}
+
+div#contents div.panel-footer a.starred{
+	color: #ffff00;	
+}
+
+div#contents div.panel-heading a img{
+	width: 50px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+div#contents div.panel-heading a span{
+	display: inline-block;
+	color: #fff;
+	padding-left: 10px;
+}
+
+div#contents div.panel-body span#msg-time{
+	font-size: 12px;
+}
+
+div#contents div.panel-body h4#msg-title{
+	margin-top: 3px;
+}
+
+div#contents div.panel-body h4#msg-title a{
+	color: #3a3;
+}
+
+div#contents div.not-read div.panel-body h4#msg-title a{
+	color: #a33;
+}
+
+
+/*Send Message Form - Compose Page */
+div#contents form#send-message{
+	padding: 10px 15px;
+}
+
+div#contents form#send-message label{
+	padding-left: 10px;
+}
+
+div#contents form#send-message input,
+div#contents form#send-message textarea{
+	border-radius: 20px;
+	padding: 7px 15px;
+}
+
+div#contents form#send-message input:focus,
+div#contents form#send-message textarea:focus{
+	border-color: #31C229;
+}
+
+div#contents form#send-message button{
+	border-radius: 20px;
+	border: 1px solid #31C229;
+	background-color: #31C229;
+	color: #fff;
+}
+
+div#contents form#send-message button:hover{
+	color: #333;
+	background-color: #fff;
+}
+
+
+
+/*People Page Template*/
+/*===== Styling for Users Search =====*/
+div.contents div.contents > div{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+div.contents img{
+	height: 80px;
+	width: 80px;
+	float: right;
+}
+div.contents p{
+	margin-bottom: 5px;
+}
+div.contents p a{
+	color: #31C229;
+}
+div.contents p a:hover{
+	color: #333;
+}
+div.contents p#name{
+	font-size: 18px;
+}
+div.contents a.btn{
+	border: 1px solid #31C229;
+	color: #333;
+	background-color: #fff;
+	border-radius: 30px;
+	padding: 7px 8px;
+	margin: 5px;
+	min-width: 70px;
+	font-size: 12px;
+}
+div.contents a.btn:hover{
+	background-color: #31C229;
+	color: #fff;
 }

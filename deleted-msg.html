@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Conversation | IWORDER</title>
+	<title>Deleted Mesages | IWORDER</title>
 
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
@@ -111,13 +111,13 @@
 						<h3>Coversation</h3>
 						<ul>
 							<li>
-								<a href="conversation.html" class="active">Inbox</a>
+								<a href="conversation.html">Inbox</a>
 							</li>
 							<li>
 								<a href="starred-msg.html">Starred</a>
 							</li>
 							<li>
-								<a href="deleted-msg.html">Deleted</a>
+								<a href="deleted-msg.html" class="active" style="color: #f00;">Deleted</a>
 							</li>
 							<li>
 								<a href="compose-msg.html">Compose</a>
@@ -141,7 +141,7 @@
 							<div class="panel panel-default not-read">
 								<div class="panel-heading">
 									<input type="checkbox">
-									<a href="">
+									<a href="profile-others.html">
 										<img src="img/portrait1.jpg" alt="Profile Image" class="img-responsive">
 										<span>Jany Iworder @janywoder</span>
 									</a>
@@ -150,44 +150,18 @@
 									<div class="">
 										<span id="msg-time">2018-02-15 8:45am</span>
 										<h4 id="msg-title">
-											<a href="message.html">
-												Message Title
-											</a>
+											Message Title
 										</h4>
 										<p>Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusamus expedita enim numquam id fugiat sit. Sed sit cupiditate...</p>
 									</div>
 								</div>
 								<div class="panel-footer">
-									<a id="starred" href="#starred" class=""><i class="fas fa-star"></i></a>
-									<a id="delete" href="#delete" class="pull-right">Delete</a>
+									<a id="delete" href="#undodelete" class="" style="">Undo Delete</a>
+									<a id="delete-permanently" href="#delete-permanently" class="pull-right" style="">Delete Permanently</a>
 								</div>
 							</div>
 
 
-							<div class="panel panel-default">
-								<div class="panel-heading">
-									<input type="checkbox">
-									<a href="">
-										<img src="img/portrait1.jpg" alt="Profile Image" class="img-responsive">
-										<span>Jany Iworder @janywoder</span>
-									</a>
-								</div>
-								<div class="panel-body">
-									<div class="">
-										<span id="msg-time">2018-02-15 8:45am</span>
-										<h4 id="msg-title">
-											<a href="message.html">
-												Message Title
-											</a>
-										</h4>
-										<p>Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur accusamus expedita enim numquam id fugiat sit. Sed sit cupiditate...</p>
-									</div>
-								</div>
-								<div class="panel-footer">
-									<a id="starred" href="#starred" class="starred"><i class="fas fa-star"></i></a>
-									<a id="delete" href="#delete" class="pull-right">Delete</a>
-								</div>
-							</div>
 						</div>
 					</div>
 				</div>
