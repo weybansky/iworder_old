@@ -264,3 +264,44 @@ div.contents a.btn:hover{
 	background-color: #31C229;
 	color: #fff;
 }
+
+
+
+/*Mobile Styles*/
+@media (max-width: 767px) {
+	div#side-bar{
+		padding: 5px 0px;
+	  height: auto;
+	  min-height: auto;
+	}
+	div#side-bar div#profile-img{
+		display: none;
+	}
+	div#side-bar div#side-bar-menu ul{
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+	}
+	div#side-bar div#side-bar-menu ul li{
+		margin: 0px 1px;
+		display: inline-block;
+	}
+	div#side-bar div#side-bar-menu ul li i{
+		padding: 0px;
+		display: none;
+	}
+	div#side-bar div#side-bar-menu ul li a{
+		font-size: 14px;
+		padding: 5px 5px;
+	}
+	/*Contents*/
+	div#contents{
+	  height: auto;
+	  min-height: auto;
+	  overflow-y: auto;
+	  padding: 5px 12px;
+	}
+	div#contents div#navigation h3{
+		margin-top: 10px;
+	}
+}
