@@ -114,3 +114,10 @@ nav div div.collapse ul li a i{
 	font-size: 16px;
 	font-weight: lighter
 }
+
+
+@media (max-width: 768px) {
+	a.navbar-brand{
+		height: 28px;
+	}
+}
