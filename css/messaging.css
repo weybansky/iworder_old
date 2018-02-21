@@ -36,21 +36,21 @@ div#side-bar div#profile-img p{
 }
 
 
-div#side-bar div#menu ul{
+div#side-bar div#side-bar-menu ul{
 	/*display: block;*/
 	padding: 0px;
 }
 
-div#side-bar div#menu ul li{
+div#side-bar div#side-bar-menu ul li{
 	list-style-type: none;
 	margin: 10px 0px;
 }
 
-div#side-bar div#menu ul li i{
+div#side-bar div#side-bar-menu ul li i{
 	padding-right: 10px;
 }
 
-div#side-bar div#menu ul li a{
+div#side-bar div#side-bar-menu ul li a{
 	color: #fff;
 	display: block;
 	font-size: 16px;
@@ -58,8 +58,8 @@ div#side-bar div#menu ul li a{
 	padding-right: 8px;
 }
 
-div#side-bar div#menu ul li a:hover,
-div#side-bar div#menu ul li a.active{
+div#side-bar div#side-bar-menu ul li a:hover,
+div#side-bar div#side-bar-menu ul li a.active{
 	text-decoration: none;
 	background-color: #fff;
 	color: #31C229;
