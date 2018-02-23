@@ -8,7 +8,8 @@
 nav.navbar{margin-bottom: 0px;}
 
 div#side-bar{
-	background-color: #31C229;
+	/*background-color: #31C229;*/
+	background-color: #e2fae1;
 	padding: 20px 0px;
   height: calc(100vh - 30px);
   min-height: 450px;
@@ -32,7 +33,7 @@ div#side-bar div#profile-img img{
 
 div#side-bar div#profile-img p{
 	font-size: 18px;
-	color: #fff;
+	color: #333;
 }
 
 
@@ -51,7 +52,7 @@ div#side-bar div#side-bar-menu ul li i{
 }
 
 div#side-bar div#side-bar-menu ul li a{
-	color: #fff;
+	color: #333;
 	display: block;
 	font-size: 16px;
 	padding: 8px 18px;
@@ -62,7 +63,7 @@ div#side-bar div#side-bar-menu ul li a:hover,
 div#side-bar div#side-bar-menu ul li a.active{
 	text-decoration: none;
 	background-color: #fff;
-	color: #31C229;
+	color: #333;
 }
 
 

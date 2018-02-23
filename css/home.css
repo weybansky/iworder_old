@@ -48,11 +48,11 @@ section#home-page-nav div#home-page-nav-row > div p#user-name a:hover{
 
 section#home-page-nav div#home-page-nav-row > div i{
 	padding-top: 10px;
-	color: #51b14f;
+	color: #555;
 }
 section#home-page-nav div#home-page-nav-row > div i:hover{
-	/*color: #51b14f;*/
-	color: #555;
+	color: #51b14f;
+	/*color: #555;*/
 }
 
 section#home-page-nav div#home-page-nav-row > div span{

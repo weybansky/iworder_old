@@ -1,0 +1,331 @@
+/*
+*	 Author: Abdulwahab Nasir (weybansky)
+*	  Email: weybansky@gmail.acom
+*	 Github: https://github.com/weybansky
+*	Website: https://www.weybanskytech.com.ng
+*/
+
+nav.navbar{margin-bottom: 0px;}
+
+div#side-bar{
+	/*background-color: #31C229;*/
+	background-color: #e2fae1;
+	padding: 20px 0px;
+  height: calc(100vh - 30px);
+  min-height: 450px;
+}
+
+div#side-bar div#profile-img{
+	display: ;
+	margin-bottom: 20px;
+}
+
+div#side-bar div#profile-img a:hover{
+	text-decoration: none;
+}
+
+div#side-bar div#profile-img img{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+
+div#side-bar div#profile-img p{
+	font-size: 18px;
+	color: #333;
+}
+
+
+div#side-bar div#side-bar-menu ul{
+	/*display: block;*/
+	padding: 0px;
+}
+
+div#side-bar div#side-bar-menu ul li{
+	list-style-type: none;
+	margin: 10px 0px;
+}
+
+div#side-bar div#side-bar-menu ul li i{
+	padding-right: 10px;
+}
+
+div#side-bar div#side-bar-menu ul li a{
+	color: #333;
+	display: block;
+	font-size: 16px;
+	padding: 8px 18px;
+	padding-right: 8px;
+}
+
+div#side-bar div#side-bar-menu ul li a:hover,
+div#side-bar div#side-bar-menu ul li a.active{
+	text-decoration: none;
+	background-color: #fff;
+	color: #333;
+}
+
+
+/*Contents*/
+div#contents{
+  height: calc(100vh - 30px);
+  min-height: 500px;
+  overflow-y: scroll;
+  padding: 15px 20px;
+}
+
+
+/*Navigation*/
+div#contents div#navigation{
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+div#contents div#navigation h3{
+	display: inline-block;
+}
+div#contents div#navigation ul{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+}
+div#contents div#navigation ul li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 5px 5px;
+	margin-left: 1px;
+}
+div#contents div#navigation ul li a:hover{
+	color: #0f0;
+}
+div#contents div#navigation ul li a.active{
+	color: #0f0;
+	text-decoration: underline;
+}
+div#contents div#navigation ul li a.active:hover{
+	text-decoration: none;
+}
+
+
+/*Message Search Form*/
+div#contents div#search-msg {
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+div#contents div#search-msg input,
+div#contents div#search-msg button{
+	border-radius: 30px;
+	border: 1px solid #31C229;
+	background-color: #fff;
+}
+
+div#contents div#search-msg input: focus{
+	border-color: #31C229;
+}
+
+div#contents div#search-msg input{
+	padding: 10px 20px;
+	min-width: 200px;
+}
+
+div#contents div#search-msg button{
+	padding: 10px 15px;
+}
+
+div#contents div#search-msg button:hover{
+	color: #fff;
+	background-color: #31C229;
+}
+
+
+/*Messages*/
+
+div#contents div.panel-heading{
+	/*background-color: #78ea73;*/
+	background-color: #3a3;
+}
+
+div#contents div.not-read div.panel-heading{
+	background-color: #a33;
+}
+
+div#contents a#starred:hover,
+div#contents a.starred{
+	color: #ffff00;
+}
+
+div#contents div.panel-heading a img{
+	width: 50px;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+div#contents div.panel-heading a span{
+	display: inline-block;
+	color: #fff;
+	padding-left: 10px;
+}
+
+div#contents div.panel-body span#msg-time{
+	display: block;
+	text-align: right;
+}
+
+div#contents div.panel-body h4#msg-title{
+	margin-top: 3px;
+}
+
+div#contents div.panel-body h4#msg-title a{
+	color: #3a3;
+}
+
+div#contents div.not-read div.panel-body h4#msg-title a{
+	color: #a33;
+}
+
+
+/*Send Message Form - Compose Page */
+div#contents form#send-message{
+	padding: 10px 15px;
+}
+
+div#contents form#send-message label{
+	padding-left: 10px;
+}
+
+div#contents form#send-message input,
+div#contents form#send-message textarea{
+	border-radius: 20px;
+	padding: 7px 15px;
+}
+
+div#contents form#send-message input:focus,
+div#contents form#send-message textarea:focus{
+	border-color: #31C229;
+}
+
+div#contents form#send-message button{
+	border-radius: 20px;
+	border: 1px solid #31C229;
+	background-color: #31C229;
+	color: #fff;
+}
+
+div#contents form#send-message button:hover{
+	color: #333;
+	background-color: #fff;
+}
+
+
+
+/*People Page Template*/
+/*===== Styling for Users Search =====*/
+div.contents div.contents > div{
+	padding-left: 8px;
+	padding-right: 8px;
+}
+div.contents img{
+	height: 80px;
+	width: 80px;
+	float: right;
+}
+
+a.last-msg{
+	color: #333;
+}
+
+
+
+
+
+div.chats{
+  height: calc(80vh - 20px);
+  min-height: 30px;
+  overflow-y: scroll;
+  padding: 7px;
+}
+
+div.chats div.chat{
+  display: block;
+	padding: 5px 15px;
+}
+
+div.chats div.chat:hover{
+	background-color: #eee;
+	border-radius: 20px;
+}
+
+div.chats div.me{
+  text-align: right;
+}
+
+div.chats p{
+	margin-bottom: 3px;
+}
+
+div.chats span.time{
+	font-style: italic;
+	padding-left: 10px;
+}
+
+div.chats span.sentby{
+	color: #31C229;
+}
+
+div.chats div.chat{
+	margin: ;
+}
+
+div.send-msg form{
+	width: 100%
+}
+
+div.send-msg input,
+div.send-msg button{
+	padding: 7px 12px;
+	font-size: 14px;
+	border-radius: 20px;
+	border: 1px solid #31C229;
+}
+
+
+
+/*Mobile Styles*/
+@media (max-width: 767px) {
+	div#side-bar{
+		padding: 5px 0px;
+	  height: auto;
+	  min-height: auto;
+	}
+	div#side-bar div#profile-img{
+		display: none;
+	}
+	div#side-bar div#side-bar-menu ul{
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+	}
+	div#side-bar div#side-bar-menu ul li{
+		margin: 0px 1px;
+		display: inline-block;
+	}
+	div#side-bar div#side-bar-menu ul li i{
+		padding: 0px;
+		display: none;
+	}
+	div#side-bar div#side-bar-menu ul li a{
+		font-size: 14px;
+		padding: 5px 5px;
+	}
+	/*Contents*/
+	div#contents{
+	  /*height: auto;
+	  min-height: auto;
+	  overflow-y: auto;
+	  padding: 5px 12px;*/
+	}
+	div#contents div#navigation h3{
+		/*margin-top: 10px;*/
+	}
+}

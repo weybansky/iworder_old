@@ -37,3 +37,12 @@ section#latest div.panel-body .fa{
 	color: #555555;
 	padding: 0px 5px;
 }
+
+h3.panel-title{
+	color: #337ab7;
+	/*font-weight: bold;*/
+}
+
+div.post-options span{
+	color: #337ab7;
+}

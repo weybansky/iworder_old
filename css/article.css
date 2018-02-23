@@ -4,7 +4,9 @@
 *	 Github: https://github.com/weybansky
 *	Website: https://www.weybanskytech.com.ng
 */
-
+a.author{
+	/*font-size: 16px !important;*/
+}
 
 /*============The Article Head=============*/
 div.article-head div.article-head-img img{
@@ -36,7 +38,7 @@ div.article-head-body p span{
 
 div.article-head-body p a{
 	color: #31C229;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 }
@@ -47,8 +49,8 @@ div.article-head-body p a:hover{
 div.article-head-body a.btn{
 	border-radius: 30px;
 	border: 1px solid #31C229;
-	padding: 3px 10px;
-	font-size: 16px;
+	padding: 3px 6px;
+	font-size: 12px;
 }
 
 div.article-head-body a.btn#follow{
@@ -144,6 +146,10 @@ section.article-footer div#commentAndReviews div.row span.username a{
 	color: #31C229 !important;
 }
 
+section.article-footer div#commentAndReviews div.row span.level,
+section.article-footer div#commentAndReviews div.row span.level a{
+	color: #337ab7 !important;
+}
 
 section.article-footer div.tab-content #review-section{
 	/*display: none;*/
