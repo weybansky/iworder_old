@@ -8,7 +8,11 @@ a.author{
 	/*font-size: 16px !important;*/
 }
 
-/*============The Article Head=============*/
+/*======Article =======*/
+section#article{
+	margin-top: 30px;
+}
+
 div.article-head div.article-head-img img{
 	width: 100%;
 }
@@ -117,7 +121,11 @@ section.article-footer ul.nav-tabs li a{
 	padding: 8px 18px;
 	padding-bottom: 5px;
 	margin-right: -3px;
-	border: 0px transparent #31C229 !important;
+}
+
+section.article-footer ul.nav-tabs li.active a{
+	background-color: #31C229;
+	color: #fff;
 }
 
 
@@ -167,5 +175,11 @@ section.article-footer div.tab-content #review-section{
 	}
 	div.article-head-body{
 		padding-left: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	section#article{
+		margin-top: 10px;
 	}
 }

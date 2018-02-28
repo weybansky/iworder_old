@@ -4,7 +4,6 @@
 *	 Github: https://github.com/weybansky
 *	Website: https://www.weybanskytech.com.ng
 */
-
 /*=========CONTENT==========*/
 section#home-page-content{
 	margin-top: 30px;
@@ -29,6 +28,25 @@ section#home-page-content div.tab-content div.panel div.panel-body{
 
 section#home-page-content div.tab-content div.panel div.panel-body{
 	box-shadow: 1px 1px 6px #aaa, -1px 1px 6px #aaa;
-	margin-bottom: 25px;
+	margin-bottom: 18px;
 	/**/
+}
+
+@media (max-width: 768px) {
+	section#home-page-content{
+		margin-top: 10px;
+	}
+	section#home-page-content ul.nav-tabs li a{
+		background-color: #31C229;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		padding: 3px 10px;
+	}
+	section#home-page-content ul.nav-tabs li.active a{
+		border-color: #31C229;
+	}
+	section#home-page-content div.tab-content div.panel div.panel-body{
+		box-shadow: none;
+		border-bottom: 1px solid #aaa;
+	}
 }

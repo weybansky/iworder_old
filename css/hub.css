@@ -5,14 +5,8 @@
 *	Website: https://www.weybanskytech.com.ng
 */
 
-/*GLOBAL*/
-a:hover{
-	/*text-decoration: none;*/
-}
-
-/*The Main All Posts Page Body*/
-body{
-	/*margin-top: 120px;*/
+section#recommended{
+	margin-top: 30px;
 }
 
 section#recommended div.panel-body,
@@ -45,4 +39,11 @@ h3.panel-title{
 
 div.post-options span{
 	color: #337ab7;
+}
+
+@media (max-width: 768px) {
+	
+	section#recommended{
+		margin-top: 10px;
+	}
 }
