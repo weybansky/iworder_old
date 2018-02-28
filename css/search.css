@@ -238,5 +238,10 @@ section#search-page div.category-tag div.well{
 
 
 	/* Styling for Category / Tag Page*/
+	section#search-page div.search-user-content h3#title,
+	section#search-page div.search-post-content h3#title{
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
 
 }
